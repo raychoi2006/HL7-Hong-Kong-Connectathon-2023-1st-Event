@@ -30,8 +30,8 @@ Please fill in the HCRs' Document Type and Document Number in Patient List (PL) 
 Tips: The reference of Recipient List (PL) Interface File can be found in the Section 9 of the document.
 
 ANSWER:
-317450535389|M|1988-03-08 00:00:00.000||||CHAN|BURRY|\CR\
-642970757724|F|1968-08-08 00:00:00.000||||LEE|APPLE|\CR\
+317450535389|M|1988-03-08 00:00:00.000|W1200073|ID||CHAN|BURRY|\CR\
+642970757724|F|1968-08-08 00:00:00.000||OC|OC230714162954|LEE|APPLE|\CR\
 EOF.2.9907819043.MOCK_SAMPLE.ENCTR.PL.1.20231103133300
 
 ---------------------------------------------------------------------------------------
@@ -44,7 +44,7 @@ Please fill in the Record Key, Transaction Type and Visit Datetime in the Encoun
 Tips: The reference of Structured Data (DF) File can be found in the Section 8 of the document.
 
 ANSWER:
-642970757724||2023-11-01 00:00:00.000||2023-11-01 00:00:00.000|APP-OP|||9907819043|9907819043|O|||1|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\CR\
+642970757724|ENCTR_MOCK_RK_001|2023-11-01 00:00:00.000|I|2023-11-01 00:00:00.000|APP-OP|||9907819043|9907819043|O|||1||||||||||||||||||||||||2023-10-01 00:00:00.000|||||||||||||||||||||||||||||||||||||\CR\
 EOF.1.9907819043.MOCK_SAMPLE.ENCTR.DF.1.20231031143300
 
 ---------------------------------------------------------------------------------------
@@ -61,7 +61,7 @@ Please fill in the line 63 to update the appointment date from 12 Oct 2023 to 21
 Tips: The reference of Structured Data (DF) File can be found in the Section 8 of the document.
 
 ANSWER:
-
+642970757724|MOCK_ENCTR_HCR2|2023-11-01 00:00:00.000|U|2023-11-01 00:00:00.000|APP-OP|||9907819043|9907819043|O|||1||||||||||||||||||||||||2023-10-21 00:00:00.000|||||||||||||||||||||||||||||||||||||\CR\
 EOF.1.9907819043.MOCK_SAMPLE.ENCTR.DF.1.20231103143300
 
 
@@ -89,7 +89,7 @@ https://github.com/hl7hongkong/HL7-Hong-Kong-Connectathon-2023-1st-Event/blob/ma
 
 Tips: The reference to Patient resource can be found in the Section 10.1.4 of the document.
 
-ANSWER: __PUT_YOUR_ANSWER_HERE__
+ANSWER: CHAN TAI MAN
 
 ---------------------------------------------------------------------------------------
 [E1P2Q2] Referring to the sample file "RXO_sample_L3.txt"(https://github.com/hl7hongkong/HL7-Hong-Kong-Connectathon-2023-1st-Event/blob/main/Part_2_Drug_Record_Download/RXO_sample_L3.txt), what is the dosage frequency for Panadol ordered on 13 Mar 2023?
@@ -97,7 +97,7 @@ ANSWER: __PUT_YOUR_ANSWER_HERE__
 
 Tips: The reference to MedicationRequest resource can be found in the Section 10.1.6 of the document.
 
-ANSWER: __PUT_YOUR_ANSWER_HERE__
+ANSWER: three times daily
 
 
 
@@ -124,7 +124,7 @@ https://github.com/hl7hongkong/HL7-Hong-Kong-Connectathon-2023-1st-Event/blob/ma
 
 Tips: The reference to QuestionnaireResponse resource can be found in the Section 11.4 of the document.
 
-ANSWER: __PUT_YOUR_ANSWER_HERE__
+ANSWER: DM
 
 ---------------------------------------------------------------------------------------
 [E1P3Q2] Referring to the sample file "connectathon_ppp_sample_data.json"(https://github.com/hl7hongkong/HL7-Hong-Kong-Connectathon-2023-1st-Event/blob/main/Part_3_GOPC_PPP_Data_Download/connectathon_ppp_sample_data.json), what is the patient's body temperature?
@@ -132,4 +132,4 @@ ANSWER: __PUT_YOUR_ANSWER_HERE__
 
 Tips: The reference to QuestionnaireResponse resource can be found in the Section 11.4 of the document.
 
-ANSWER: __PUT_YOUR_ANSWER_HERE__
+ANSWER: 37
